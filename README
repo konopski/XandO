@@ -1,0 +1,8 @@
+The X and O game.
+
+Computer plays only random strategy.
+There are some dependencies needed:
+
+appframework-1.0.3.jar
+swing-worker-1.1.jar
+testng-5.8-jdk15.jar

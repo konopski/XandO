@@ -28,12 +28,12 @@ public class ArbiterTest
 	public Object[][] createData1()
 	{		
 		return new Object[][]
-        {			
+    			    {			
 				{
 					true,           //finished
 					0,              //last move					
 					new Character[] //fields
-	                { o , o , o ,
+					{ o , o , o ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -43,7 +43,7 @@ public class ArbiterTest
 					true,           //finished
 					1,              //last move					
 					new Character[] //fields
-	                { o , o , o ,
+					{ o , o , o ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -53,7 +53,7 @@ public class ArbiterTest
 					true,           //finished
 					2,              //last move					
 					new Character[] //fields
-	                { o , o , o ,
+					{ o , o , o ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -63,7 +63,7 @@ public class ArbiterTest
 					false,           //finished
 					1,              //last move					
 					new Character[] //fields
-	                { n , o , o ,
+					{ n , o , o ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -73,7 +73,7 @@ public class ArbiterTest
 					false,           //finished
 					1,              //last move					
 					new Character[] //fields
-	                { o , o , n ,
+					{ o , o , n ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -83,7 +83,7 @@ public class ArbiterTest
 					false,           //finished
 					0,              //last move					
 					new Character[] //fields
-	                { o , n , o ,
+					{ o , n , o ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -93,7 +93,7 @@ public class ArbiterTest
 					false,           //finished
 					2,              //last move					
 					new Character[] //fields
-	                { o , n , o ,
+					{ o , n , o ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -103,7 +103,7 @@ public class ArbiterTest
 					true,           //finished
 					4,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  n , x , o ,
 					  o , o , o ,
 					  x , x , n
@@ -114,7 +114,7 @@ public class ArbiterTest
 					true,           //finished
 					3,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  n , x , o ,
 					  o , o , o ,
 					  x , x , n
@@ -125,7 +125,7 @@ public class ArbiterTest
 					true,           //finished
 					5,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  n , x , o ,
 					  o , o , o ,
 					  x , x , n
@@ -136,7 +136,7 @@ public class ArbiterTest
 					true,           //finished
 					8,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  n , x , o ,
 					  x , x , n ,
 					  o , o , o 
@@ -147,7 +147,7 @@ public class ArbiterTest
 					true,           //finished
 					6,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  n , x , o ,
 					  x , x , n ,
 					  o , o , o 
@@ -158,7 +158,7 @@ public class ArbiterTest
 					true,           //finished
 					7,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  n , x , o ,
 					  x , x , n ,
 					  o , o , o 
@@ -169,7 +169,7 @@ public class ArbiterTest
 					false,           //finished
 					0,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , n , n ,
 					  n , n , n ,
 					  n , n , n 
@@ -180,7 +180,7 @@ public class ArbiterTest
 					false,           //finished
 					8,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , n , n ,
 					  n , n , n ,
 					  n , n , o 
@@ -191,7 +191,7 @@ public class ArbiterTest
 					false,           //finished
 					4,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , n , n ,
 					  n , x , n ,
 					  n , n , o 
@@ -202,7 +202,7 @@ public class ArbiterTest
 					false,           //finished
 					5,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , n , n ,
 					  n , x , o ,
 					  n , n , o 
@@ -213,7 +213,7 @@ public class ArbiterTest
 					false,           //finished
 					2,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , n , x ,
 					  n , x , o ,
 					  n , n , o 
@@ -224,7 +224,7 @@ public class ArbiterTest
 					false,           //finished
 					1,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , o , x ,
 					  n , x , o ,
 					  n , n , o 
@@ -235,7 +235,7 @@ public class ArbiterTest
 					false,           //finished
 					3,              //last move					
 					new Character[] //fields
-	                { 
+					{ 
 					  x , o , x ,
 					  x , x , o ,
 					  n , n , o 
@@ -247,7 +247,7 @@ public class ArbiterTest
 					true,           //finished
 					2,              //last move					
 					new Character[] //fields
-	                { o , n , x ,
+					{ o , n , x ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -257,7 +257,7 @@ public class ArbiterTest
 					true,           //finished
 					0,              //last move					
 					new Character[] //fields
-	                { o , n , x ,
+					{ o , n , x ,
 					  n , o , n ,
 					  x , x , o
 					},
@@ -268,7 +268,7 @@ public class ArbiterTest
 					true,           //finished
 					4,              //last move					
 					new Character[] //fields
-	                { o , n , x ,
+					{ o , n , x ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -278,7 +278,7 @@ public class ArbiterTest
 					true,           //finished
 					4,              //last move					
 					new Character[] //fields
-	                { o , n , x ,
+					{ o , n , x ,
 					  n , o , n ,
 					  x , x , o
 					},
@@ -289,7 +289,7 @@ public class ArbiterTest
 					true,           //finished
 					6,              //last move					
 					new Character[] //fields
-	                { o , n , x ,
+					{ o , n , x ,
 					  n , x , o ,
 					  x , x , n
 					},
@@ -299,7 +299,7 @@ public class ArbiterTest
 					true,           //finished
 					8,              //last move					
 					new Character[] //fields
-	                { o , n , x ,
+					{ o , n , x ,
 					  n , o , n ,
 					  x , x , o
 					},

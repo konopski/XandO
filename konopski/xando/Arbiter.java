@@ -72,21 +72,21 @@ public class Arbiter {
             //need to check right diagonal if not success
             //and last move is common to both diagonals
             boolean retVal=true;
-    		for(int i=0;i<n*n;i+=n+1)
-    		{
-    			if(i==last)
-    				continue;
-    			if(null==fc.getFields(i))
-    			{
-    				retVal=false;
-    				break;
-    			}
-                if(!c.equals(fc.getFields(i)))
-                {
-                	retVal=false;
-                	break;
-                }
-    		}
+            for(int i=0;i<n*n;i+=n+1)
+    		    {
+    			    if(i==last)
+    				     continue;
+    			    if(null==fc.getFields(i))
+    			    {
+    			        retVal=false;
+    			        break;
+    			    }
+    			    if(!c.equals(fc.getFields(i)))
+    			    {
+    			        retVal=false;
+    			        break;
+    			    }
+            }
     		if(retVal)
     			return true;
     	}
@@ -98,11 +98,11 @@ public class Arbiter {
             for(int i=n*(n-1);i>0;i-=n-1)
             {
             	if(i==last)
-    				continue;
+    			        continue;
             	if(null==fc.getFields(i))
-                    return false;
-                if(!c.equals(fc.getFields(i)))
-                    return false;
+    			        return false;
+    			    if(!c.equals(fc.getFields(i)))
+    			        return false;
             }
             return true;
     	}

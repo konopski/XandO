@@ -2,7 +2,7 @@ package konopski.xando;
 
 /**
  * Interface providing game state.
- * @author Łukasz Konopski
+ * @author Lukasz Konopski
  */
 public interface FieldContainer {
 

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 /**
  * Data driven tests for Arbiter class.
  * 
- * @author Łukasz Konopski
+ * @author Lukasz Konopski
  */
 @Test
 public class ArbiterTest
@@ -325,7 +325,7 @@ public class ArbiterTest
 	
 	/**
 	 * Helper class that is used by Arbiter to access provided data. 
-	 * @author Łukasz Konopski
+	 * @author Lukasz Konopski
 	 */
 	private class PseudoGame implements FieldContainer
 	{	

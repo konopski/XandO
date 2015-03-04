@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 /**
  * Slow random strategy.
- * @author Łukasz Konopski
+ * @author Lukasz Konopski
  */
 public class RandomSlowStrategy implements IStrategy {
 

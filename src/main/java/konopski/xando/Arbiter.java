@@ -3,7 +3,7 @@ package konopski.xando;
 /**
  * Determines if game is finished.
  * This implementation should work even for bigger than 3x3 games (not tested). 
- * @author Łukasz Konopski
+ * @author Lukasz Konopski
  */
 public class Arbiter {
 

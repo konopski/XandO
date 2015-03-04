@@ -3,7 +3,7 @@ package konopski.xando;
 
 /**
  * Computer play strategy interface.
- * @author Łukasz Konopski
+ * @author Lukasz Konopski
  */
 public interface IStrategy {
 

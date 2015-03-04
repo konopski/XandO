@@ -4,7 +4,7 @@ import javax.swing.JButton;
 
 /**
  * Represents game field.
- * @author Łukasz Konopski
+ * @author Lukasz Konopski
  */
 public class FieldButton extends JButton {
     /**
